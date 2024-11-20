@@ -1,0 +1,35 @@
+@media (max-width: 700px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .community-box {
+      text-align: center;
+    }
+  
+    .images-container {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .espacios-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .box {
+      flex-direction: row;
+    }
+  
+    .box .imagen {
+      max-width: 40%;
+    }
+  }
+  
